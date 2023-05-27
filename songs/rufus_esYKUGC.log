@@ -1,0 +1,60 @@
+Rufus x86 v3.17.1846 (Portable)
+Windows version: Windows 10 (Unknown Edition 0x64), 64-bit (Build 19043.1348)
+Syslinux versions: 4.07/2013-07-25, 6.04/pre1
+Grub versions: 0.4.6a, 2.06
+System locale ID: 0x0409 (en-US)
+Will use default UI locale 0x0409
+SetLGP: Successfully set NoDriveTypeAutorun policy to 0x0000009E
+Localization set to 'en-US'
+Found USB 2.0 device 'TOSHIBA TransMemory USB Device' (0930:6544)
+1 device found
+Disk type: Removable, Disk size: 32 GB, Sector size: 512 bytes
+Cylinders: 3769, Tracks per cylinder: 255, Sectors per track: 63
+Partition type: MBR, NB Partitions: 1
+Disk ID: 0xDF095250
+Drive has a Windows 7 Master Boot Record
+Partition 1:
+  Type: FAT32 LBA (0x0c)
+  Size: 28.9 GB (31001117184 bytes)
+  Start Sector: 63, Boot: Yes
+Checking for Rufus updates...
+Checking release channel...
+No new release version found.
+
+Format operation started
+Requesting disk access...
+Will use 'G:' as volume mountpoint
+Opened \\.\PhysicalDrive2 for exclusive write access
+Analyzing existing boot records...
+Drive has a Windows 7 Master Boot Record
+Clearing MBR/PBR/GPT structures...
+Erasing 128 sectors
+Initializing disk...
+Partitioning (MBR)...
+● Creating Main Data Partition (offset: 1048576, size: 28.9 GB)
+Waiting for logical drive to reappear...
+Formatting to FAT32 (using IFS)
+Using cluster size: 16384 bytes
+Quick format was selected
+Creating file system...
+Format completed.
+Writing Master Boot Record...
+Partition is already FAT32 LBA...
+Using Zeroed MBR
+Found volume \\?\Volume{327bd35a-f0e6-11eb-a9cb-089798729045}\
+Created: G:\autorun.inf
+Created: G:\autorun.ico
+Successfully remounted \\?\Volume{327bd35a-f0e6-11eb-a9cb-089798729045}\ as G:
+
+Found USB 2.0 device 'TOSHIBA TransMemory USB Device' (0930:6544)
+Using autorun.inf label for drive G: 'pd'
+1 device found
+Disk type: Removable, Disk size: 32 GB, Sector size: 512 bytes
+Cylinders: 3769, Tracks per cylinder: 255, Sectors per track: 63
+Partition type: MBR, NB Partitions: 1
+Disk ID: 0x00000000
+Drive has a Zeroed Master Boot Record
+Partition 1:
+  Type: FAT32 LBA (0x0c)
+  Size: 28.9 GB (31000100864 bytes)
+  Start Sector: 2048, Boot: No
