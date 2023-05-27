@@ -1,7 +1,7 @@
 ﻿pybind11==2.10.3
 pycparser==2.21
 pydantic==1.10.7
-Django==4.1.4
+Django==4.2.1
 Pygments==2.15.1
 PyJWT==2.6.0
 pyrsistent==0.19.3
