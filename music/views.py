@@ -3,22 +3,16 @@ from django.shortcuts import render
 # Create your views here.
 from django.shortcuts import render, redirect
 from .models import Song
-from .forms import SongForm
 from django.contrib.auth.models import User
 
 
 from django.shortcuts import render, redirect, get_object_or_404
 from django.contrib.auth.decorators import login_required
 from django.core.exceptions import PermissionDenied
-from .models import Song
 from django.shortcuts import render
 from django.contrib.auth.decorators import login_required
 
-from .forms import SongForm
-from django.shortcuts import render, redirect
-from django.contrib.auth.decorators import login_required
 from django.db.models import Q
-from .models import Song
 from .forms import SongForm
 from django.shortcuts import render, redirect
 from django.contrib.auth.forms import UserCreationForm
